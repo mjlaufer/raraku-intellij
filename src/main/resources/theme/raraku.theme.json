@@ -28,7 +28,7 @@
         "yellowDiff": "#ffdaa3",
         "greenDiff": "#c1eac4",
         "cyanDiff": "#aed8e9",
-        "cyanDiffBright": "#97cfe4",
+        "cyanDiffEmph": "#97cfe4",
         "blueDiff": "#c8d1ec"
     },
     "icons": {
@@ -47,18 +47,18 @@
             "Objects.Green": "#147925",
             "Objects.GreenAndroid": "#689c79",
             "Objects.Blue": "#1667c3",
-            "Objects.Grey": "#b0b0b0",
+            "Objects.Grey": "#727272",
             "Objects.Pink": "#b32d6a",
             "Objects.Purple": "#864eb5",
             "Checkbox.Background.Default": "#f3ead5",
             "Checkbox.Background.Disabled": "#eddfb8",
-            "Checkbox.Background.Selected": "#c8d1ec",
+            "Checkbox.Background.Selected": "#1667c3",
             "Checkbox.Border.Default": "#e4d3a6",
             "Checkbox.Border.Disabled": "#e4d3a6",
             "Checkbox.Focus.Thin.Default": "#f3ead5",
             "Checkbox.Focus.Thin.Selected": "#f3ead5",
             "Checkbox.Focus.Wide": "#b44300",
-            "Checkbox.Foreground.Selected": "#555555",
+            "Checkbox.Foreground.Selected": "#f3ead5",
             "Checkbox.Foreground.Disabled": "#727272",
             "Tree.iconColor": "#555555"
         }

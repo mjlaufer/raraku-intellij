@@ -1,4 +1,4 @@
-<scheme name="Raraku" version="1" parent_scheme="Darcula">
+<scheme name="Raraku" version="1" parent_scheme="Default">
     <colors>
         <option name="ADDED_LINES_COLOR" value="689c79" />
         <option name="CARET_COLOR" value="353535" />
@@ -47,6 +47,7 @@
         <option name="SELECTED_INDENT_GUIDE" value="b44300" />
         <option name="SELECTED_TEARLINE_COLOR" value="b44300" />
         <option name="SELECTION_BACKGROUND" value="c8d1ec" />
+        <option name="SELECTION_FOREGROUND" value="" />
         <option name="SEPARATOR_BELOW_COLOR" value="e4d3a6" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="727272" />
         <option name="TEARLINE_COLOR" value="e4d3a6" />
