@@ -45,7 +45,7 @@
             "Objects.Yellow": "#906d17",
             "Objects.YellowDark": "#856300",
             "Objects.Green": "#147925",
-            "Objects.GreenAndroid": "#689c79",
+            "Objects.GreenAndroid": "#147925",
             "Objects.Blue": "#1667c3",
             "Objects.Grey": "#727272",
             "Objects.Pink": "#b32d6a",
@@ -281,8 +281,14 @@
             "progressColor": "blue",
             "trackColor": "bg1"
         },
-        "RadioButtonMenuItem.selectionForeground": "fg1",
-        "RadioButtonMenuItem.selectionBackground": "bg3",
+        "RadioButtonMenuItem": {
+          "selectionForeground": "fg1",
+          "selectionBackground": "bg3"
+        },
+        "RunWidget": {
+          "foreground": "fg1",
+          "iconColor": "fg1"
+        },
         "ScrollBar": {
             "hoverThumbBorderColor": "fg3",
             "hoverThumbColor": "fg3",
