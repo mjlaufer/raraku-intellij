@@ -4,62 +4,66 @@
     "dark": false,
     "editorScheme": "/theme/raraku.xml",
     "colors": {
-        "bg1": "#f3ead5",
-        "bg2": "#eddfb8",
-        "bg3": "#e4d3a6",
+        "bg1": "#f4eddc",
+        "bg2": "#eee5ce",
+        "bg3": "#e4d9bd",
         "fg1": "#353535",
         "fg2": "#555555",
-        "fg3": "#727272",
-        "red": "#ca0005",
-        "redBright": "#d1292b",
-        "yellow": "#856300",
-        "yellowBright": "#906d17",
-        "green": "#147925",
-        "greenBright": "#35813d",
-        "cyan": "#007289",
-        "cyanBright": "#387a8e",
-        "blue": "#1667c3",
-        "blueBright": "#2f71cc",
-        "magenta": "#b32d6a",
-        "magentaBright": "#be3a74",
-        "orange": "#b44300",
-        "purple": "#864eb5",
-        "redDiff": "#ffbfbf",
-        "yellowDiff": "#ffdaa3",
-        "greenDiff": "#c1eac4",
-        "cyanDiff": "#aed8e9",
-        "cyanDiffEmph": "#97cfe4",
-        "blueDiff": "#c8d1ec"
+        "fg3": "#6d6d6d",
+        "red": "#cd191c",
+        "redBright": "#de2c2e",
+        "redBg1": "#ffcacb",
+        "redBg2": "#ffb7b7",
+        "orange": "#be4000",
+        "orangeBright": "d65100",
+        "yellow": "#a56200",
+        "yellowBright": "#b76d00",
+        "yellowBg1": "#ffdbc7",
+        "yellowBg2": "#ffc9a7",
+        "green": "#007a05",
+        "greenBright": "#1c871f",
+        "greenBg1": "#c8ecc8",
+        "greenBg2": "#aee1ae",
+        "cyan": "#007396",
+        "cyanBright": "#0081a7",
+        "cyanBg1": "#cae6f9",
+        "cyanBg2": "#b3daf3",
+        "blue": "#4c4bc5",
+        "blueBright": "#5c5bc7",
+        "blueBg1": "#dadaff",
+        "purple": "#9638b2",
+        "magenta": "#b3307c",
+        "magentaBright": "#cc357a"
     },
     "icons": {
         "ColorPalette": {
-            "Actions.Red": "#ca0005",
-            "Actions.Yellow": "#856300",
-            "Actions.Green": "#147925",
-            "Actions.Blue": "#1667c3",
+            "Actions.Red": "#cd191c",
+            "Actions.Yellow": "#a56200",
+            "Actions.Green": "#007a05",
+            "Actions.Blue": "#4c4bc5",
             "Actions.Grey": "#555555",
             "Actions.GreyInline": "#555555",
             "Objects.BlackText": "#353535",
-            "Objects.Red": "#ca0005",
-            "Objects.RedStatus": "#db5454",
-            "Objects.Yellow": "#906d17",
-            "Objects.YellowDark": "#856300",
-            "Objects.Green": "#147925",
-            "Objects.GreenAndroid": "#147925",
-            "Objects.Blue": "#1667c3",
-            "Objects.Grey": "#727272",
-            "Objects.Pink": "#b32d6a",
-            "Objects.Purple": "#864eb5",
-            "Checkbox.Background.Default": "#f3ead5",
-            "Checkbox.Background.Disabled": "#eddfb8",
-            "Checkbox.Background.Selected": "#1667c3",
-            "Checkbox.Border.Default": "#e4d3a6",
-            "Checkbox.Border.Disabled": "#e4d3a6",
-            "Checkbox.Focus.Thin.Default": "#f3ead5",
-            "Checkbox.Focus.Thin.Selected": "#f3ead5",
-            "Checkbox.Focus.Wide": "#b44300",
-            "Checkbox.Foreground.Selected": "#f3ead5",
-            "Checkbox.Foreground.Disabled": "#727272",
+            "Objects.Red": "#cd191c",
+            "Objects.RedStatus": "#cd191c",
+            "Objects.Yellow": "#b76d00",
+            "Objects.YellowDark": "#a56200",
+            "Objects.Green": "#007a05",
+            "Objects.GreenAndroid": "#007a05",
+            "Objects.Blue": "#4c4bc5",
+            "Objects.Grey": "#6d6d6d",
+            "Objects.Pink": "#b3307c",
+            "Objects.Purple": "#9638b2",
+            "Checkbox.Background.Default": "#f4eddc",
+            "Checkbox.Background.Disabled": "#eee5ce",
+            "Checkbox.Background.Selected": "#4c4bc5",
+            "Checkbox.Border.Default": "#e4d9bd",
+            "Checkbox.Border.Disabled": "#e4d9bd",
+            "Checkbox.Focus.Thin.Default": "#f4eddc",
+            "Checkbox.Focus.Thin.Selected": "#f4eddc",
+            "Checkbox.Focus.Wide": "#be4000",
+            "Checkbox.Foreground.Selected": "#f4eddc",
+            "Checkbox.Foreground.Disabled": "#6d6d6d",
             "Tree.iconColor": "#555555"
         }
     },
@@ -144,10 +148,10 @@
             "iconColor": "fg1",
             "hoverIconColor": "fg1",
             "errorFocusColor": "red",
-            "inactiveErrorFocusColor": "redDiag",
+            "inactiveErrorFocusColor": "redBright",
             "warningFocusColor": "yellow",
-            "inactiveWarningFocusColor": "yellowDiag",
-            "infoForeground": "blueDiag"
+            "inactiveWarningFocusColor": "yellowBright",
+            "infoForeground": "blueBright"
         },
         "Counter": {
             "background": "bg3",
@@ -156,8 +160,8 @@
         "DefaultTabs": {
             "borderColor": "bg3",
             "hoverBackground": "bg3",
-            "underlineColor": "blue",
-            "inactiveUnderlineColor": "blueDiag",
+            "inactiveUnderlineColor": "fg3",
+            "underlineColor": "blueBright",
             "underlinedTabBackground": "bg1"
         },
         "DragAndDrop": {
@@ -175,16 +179,16 @@
         },
         "EditorTabs": {
             "inactiveColoredFileBackground": "bg2",
-            "inactiveUnderlineColor": "blueDiag",
-            "underlineColor": "blue",
+            "inactiveUnderlineColor": "fg3",
+            "underlineColor": "blueBright",
             "underlinedTabForeground": "fg1",
             "underlinedTabBackground": "bg1"
         },
         "FileColor": {
-            "Blue": "blueDiff",
-            "Green": "greenDiff",
-            "Yellow": "yellowDiff",
-            "Rose": "redDiff",
+            "Blue": "blueBg1",
+            "Green": "greenBg1",
+            "Yellow": "yellowBg1",
+            "Rose": "redBg1",
             "Violet": "#e1c7ff",
             "Orange": "#ffc4b9"
         },
@@ -202,8 +206,8 @@
         "Link": {
             "activeForeground": "blue",
             "hoverForeground": "blueBright",
-            "pressedForeground": "blueDiag",
-            "visitedForeground": "blueDiag"
+            "pressedForeground": "blueBright",
+            "visitedForeground": "purple"
         },
         "List": {
             "selectionBackground": "bg3",
@@ -227,15 +231,15 @@
         },
         "NavBar.borderColor": "bg3",
         "Notification": {
-            "errorBackground": "redDiff",
-            "errorBorderColor": "redDiag",
+            "errorBackground": "redBg1",
+            "errorBorderColor": "redBright",
             "ToolWindow": {
-                "informativeBackground": "blueDiff",
-                "informativeBorderColor": "blueDiag",
-                "warningBackground": "yellowDiff",
-                "warningBorderColor": "yellowDiag",
-                "errorBackground": "redDiff",
-                "errorBorderColor": "redDiag"
+                "informativeBackground": "blueBg1",
+                "informativeBorderColor": "blueBright",
+                "warningBackground": "yellowBg1",
+                "warningBorderColor": "yellowBright",
+                "errorBackground": "redBg1",
+                "errorBorderColor": "redBright"
             }
         },
         "OptionPane.messageForeground": "fg1",
@@ -350,7 +354,7 @@
             "focus": "bg1",
             "focusColor": "bg3",
             "hoverColor": "bg3",
-            "underlineColor": "blue"
+            "underlineColor": "blueBright"
         },
         "Table": {
             "gridColor": "fg3",
@@ -400,8 +404,8 @@
             "HeaderTab": {
                 "hoverBackground": "bg3",
                 "hoverInactiveBackground": "bg3",
-                "inactiveUnderlineColor": "blueDiag",
-                "underlineColor": "blue",
+                "inactiveUnderlineColor": "fg3",
+                "underlineColor": "blueBright",
                 "underlinedTabBackground": "bg1",
                 "underlinedTabInactiveBackground": "bg1"
             }
@@ -419,10 +423,10 @@
             "selectionInactiveBackground": "bg3"
         },
         "ValidationTooltip": {
-            "errorBackground": "redDiff",
-            "errorBorderColor": "redDiag",
-            "warningBackground": "yellowDiff",
-            "warningBorderColor": "yellowDiag"
+            "errorBackground": "redBg1",
+            "errorBorderColor": "redBright",
+            "warningBackground": "yellowBg1",
+            "warningBorderColor": "yellowBright"
         },
         "VersionControl": {
             "FileHistory.Commit.selectedBranchBackground": "bg3",
